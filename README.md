@@ -32,6 +32,7 @@ $sudo delete_shortcuts
 ```
 $old_command (what does new_command do?)
 ```
+```
 $new_command
 ```
 
