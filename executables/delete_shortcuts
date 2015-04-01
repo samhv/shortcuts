@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Removing shortcuts in /usr/bin/shortcuts..."
+rm -r /usr/local/shortcuts/
+echo "Done."
+echo "Unexporting shortcuts..."
+echo "For unistall, you need to remove \"export PATH=$PATH:/usr/local/shortcuts/bin\" from ~/.bashrc and ~/.zshrc"
+echo "(it isn't working, can you do a pull request fixing this?)"
+echo "Done."

@@ -1,0 +1,14 @@
+#!/bin/bash
+echo 'Downloading changes in temp_shortcuts_1504689...'
+git clone git@github.com:samhv/shortcuts.git temp_shortcuts_1504689
+echo 'Done'
+echo 'Updating...'
+cd temp_shortcuts_1504689
+rm -r /usr/local/shortcuts/bin/*
+cp -r ./executables/* /usr/local/shortcuts/bin
+echo 'Done'
+echo "Removing temp_shortcuts_1504689..."
+cd ..
+rm -r temp_shortcuts_1504689
+echo 'Done'
+echo "It's updated, do: \$show_shortcuts"

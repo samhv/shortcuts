@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Copying shortcuts in /usr/bin/shortcuts..."
+mkdir /usr/local/shortcuts/
+mkdir /usr/local/shortcuts/bin
+cp ./executables/* /usr/local/shortcuts/bin
+echo "Done."
+echo "Exporting shortcuts... "
+echo "export PATH=\$PATH:/usr/local/shortcuts/bin" >> $HOME/.bashrc
+#echo "export PATH=\$PATH:/usr/local/shortcuts/bin" >> $HOME/.bash_profile
+echo "export PATH=\$PATH:/usr/local/shortcuts/bin" >> $HOME/.zshrc
+echo "Done."
+echo "It's installed, re-login (cmd+T) and do: \$show_shortcuts"
