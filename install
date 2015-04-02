@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Copying shortcuts in /usr/bin/shortcuts..."
+echo "Copying shortcuts in /usr/local/bin/shortcuts..."
 mkdir /usr/local/shortcuts/
 mkdir /usr/local/shortcuts/bin
 cp ./executables/* /usr/local/shortcuts/bin

@@ -145,48 +145,50 @@ $migrate
 ```
 ------------------
 ```
-$rails generate ...
+$rails generate (...)
 ```
 ```
-$rg ...
-```
-------------------
-```
-$rails generate model ...
-```
-```
-$rgmod ...
+$rg (...)
 ```
 ------------------
 ```
-$rails generate migration ...
+$rails generate model (...)
 ```
 ```
-$rgmig ...
+$rgmod (...)
 ```
 ------------------
 ```
-$rails generate controller ...
+$rails generate migration (...)
 ```
 ```
-$rgcon ...
+$rgmig (...)
+```
+------------------
+```
+$rails generate controller (...)
+```
+```
+$rgcon (...)
 ```
 ------------------
 
 ###Heroku Shortcuts
 ------------------
 ```
+$git add -A
+$git commit -m "added this feature"
 $git push heroku master
 ```
 ```
-$hph
+$hph "added this feature"
 ```
 ------------------
 ```
-$heroku run ...
+$heroku run (...)
 ```
 ```
-$hr ...
+$hr (...)
 ```
 ------------------
 ```
